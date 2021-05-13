@@ -14,18 +14,34 @@
         android:text="cost calculator"
         style="@style/SpecialText"
         android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal" >
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Has Circle"
+                android:gravity=""/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Has Circles"/>
+    </LinearLayout>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:hint="Add length of lawn (numbers only)"
+        android:hint="Add length of lawn (numbers only)"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:hint="Add height of lawn (numbers only)"
+        android:hint="Add height of lawn (numbers only)"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="calculate"
+        android:text="calculate"/>
 </LinearLayout>
