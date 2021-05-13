@@ -11,24 +11,21 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Mowing Da Lawn"
+        android:text="cost calculator"
         style="@style/SpecialText"
         android:textColor="@color/black"/>
-    <ImageButton
-        android:id="@+id/lawnmower"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:onClick="Lawn"
-        android:src="@drawable/lawnmower"
-        android:scaleType="fitXY"
-        />
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="click here for contact information"
-        style="@style/SpecialText"
-        />
+        android:padding="24dp"
+        android:hint="Add length of lawn (numbers only)"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:hint="Add height of lawn (numbers only)"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculate"
 </LinearLayout>
