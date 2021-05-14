@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lawnmower">
-        <activity android:name=".LawnCost"></activity>
+        <activity android:name=".TriangleLawn"></activity>
+        <activity android:name=".CircleLawn" />
+        <activity android:name=".RectangleLawn" />
+        <activity android:name=".LawnCost" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

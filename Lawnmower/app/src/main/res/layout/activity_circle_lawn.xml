@@ -11,28 +11,26 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="cost calculator"
+        android:text="Square Lawn Cost calculator"
         style="@style/SpecialText"
         android:textColor="@color/black"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="Rectangle/Square Lawn"
-        android:onClick="Rectangle" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="Circular Lawn"
-        android:onClick="Circle" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="Triangular Lawn"
-        android:onClick="Triangle" />
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please select which type of lawn you have!"
-        style="@style/SpecialText"
-        android:textColor="@color/black"/>
+        android:padding="24dp"
+        android:hint="Add length of lawn (numbers only)"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:hint="Add width of lawn (numbers only)"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculate"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0"/>
 </LinearLayout>
