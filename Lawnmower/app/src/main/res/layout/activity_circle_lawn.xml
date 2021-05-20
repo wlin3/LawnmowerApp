@@ -13,24 +13,34 @@
         android:textAlignment="center"
         android:text="Square Lawn Cost calculator"
         style="@style/SpecialText"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
     <EditText
+        android:id="@+id/radius"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
+        android:inputType="numberDecimal"
         android:hint="Add length of lawn (numbers only)"/>
-    <EditText
+
+
+
+    <TextView
+        android:id="@+id/Total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:hint="Add width of lawn (numbers only)"/>
+        android:layout_gravity="center"
+        android:text="0"
+        android:textSize="32dp"/>
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="calculate"
+        android:onClick="v"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="calculate"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="0"/>
+        android:layout_alignParentBottom="true"
+        android:text="back"/>
 </LinearLayout>
