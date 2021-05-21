@@ -37,7 +37,7 @@ public class RectangleLawn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 double a,b,c;
-                a= Double.parseDouble(Width.getText() .toString());
+                a= Double.parseDouble(Length.getText() .toString());
                 b= Double.parseDouble(Width.getText() .toString());
                 c= a*b;
                 Total.setText(Double.toString(c));
