@@ -21,7 +21,8 @@ public class CircleLawn extends AppCompatActivity {
         Intent i = new Intent(this,LawnCost.class);
         startActivity(i);
     }
-    float square = 1.0;
+    float square = 1.0F;
+    double d = square;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,8 +36,8 @@ public class CircleLawn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 float inputValue= Float.parseFloat(Radius.getText().toString());
-                square = inputValue*inputValue*Math.PI;
-                Total.setText("Total is:" +square);
+                d = inputValue*inputValue*Math.PI;
+                Total.setText("Total is:\n" +d+" \nAcres");
             }
 
         });

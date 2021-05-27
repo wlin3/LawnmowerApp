@@ -40,7 +40,7 @@ public class RectangleLawn extends AppCompatActivity {
                 a= Double.parseDouble(Length.getText() .toString());
                 b= Double.parseDouble(Width.getText() .toString());
                 c= a*b;
-                Total.setText(Double.toString(c));
+                Total.setText("Total is:\n" +c+" \nAcres");
             }
 
          });

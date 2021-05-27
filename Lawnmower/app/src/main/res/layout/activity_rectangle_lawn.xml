@@ -11,7 +11,7 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Square Lawn Cost calculator"
+        android:text="Rectangle Lawn Area Calculator"
         style="@style/SpecialText"
         android:textColor="@color/black" />
     <EditText
@@ -20,14 +20,14 @@
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="number"
-        android:hint="Add length of lawn (numbers only)"/>
+        android:hint="Length in acres (numbers only)"/>
     <EditText
         android:id="@+id/width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="numberDecimal"
-        android:hint="Add width of lawn (numbers only)"/>
+        android:hint="Length in acres (numbers only)"/>
 
 
     <TextView
