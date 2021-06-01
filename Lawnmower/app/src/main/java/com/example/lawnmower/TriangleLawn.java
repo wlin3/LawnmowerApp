@@ -29,8 +29,7 @@ public class TriangleLawn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_circle_lawn);
-
+        setContentView(R.layout.activity_triangle_lawn);
         Multiply = findViewById(R.id.calculate);
         First = findViewById(R.id.first);
         Second = findViewById(R.id.second);
