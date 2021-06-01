@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="numberDecimal"
-        android:hint="Length in acres (numbers only)"/>
+        android:hint="Width in acres (numbers only)"/>
 
 
     <TextView

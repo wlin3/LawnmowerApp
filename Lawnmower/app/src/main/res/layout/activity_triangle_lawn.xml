@@ -11,26 +11,50 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Square Lawn Cost calculator"
+        android:text="Triangle Lawn Area Calculator"
         style="@style/SpecialText"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
     <EditText
+        android:id="@+id/first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:hint="Add length of lawn (numbers only)"/>
+        android:inputType="number"
+        android:hint="1st side length in acres (numbers only)"/>
     <EditText
+        android:id="@+id/second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:hint="Add width of lawn (numbers only)"/>
-    <Button
+        android:inputType="numberDecimal"
+        android:hint="2nd side length in acres (numbers only)"/>
+    <EditText
+        android:id="@+id/third"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="calculate"/>
+        android:padding="24dp"
+        android:inputType="numberDecimal"
+        android:hint="3rd side length in acres (numbers only)"/>
+
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/Total"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="0"/>
+        android:text="0"
+        android:textSize="32dp"/>
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="calculate"
+        android:onClick="v"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="back"
+        android:onClick="back"/>
 </LinearLayout>
