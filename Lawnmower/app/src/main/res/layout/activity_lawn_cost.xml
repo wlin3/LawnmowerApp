@@ -11,7 +11,7 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="cost calculator"
+        android:text="Lawn Area Calculator"
         style="@style/SpecialText"
         android:textColor="@color/black"/>
     <Button

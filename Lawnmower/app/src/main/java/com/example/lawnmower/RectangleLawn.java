@@ -36,11 +36,12 @@ public class RectangleLawn extends AppCompatActivity {
         Multiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                double a,b,c;
+                double a,b,c,d;
                 a= Double.parseDouble(Length.getText() .toString());
                 b= Double.parseDouble(Width.getText() .toString());
                 c= a*b;
-                Total.setText("Total is:\n" +c+" \nAcres");
+                d= c/43560;
+                Total.setText("Total is:\n" +d+" \nAcres");
             }
 
          });

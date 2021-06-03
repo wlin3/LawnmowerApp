@@ -20,14 +20,14 @@
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="number"
-        android:hint="Length in acres (numbers only)"/>
+        android:hint="Length in feet (numbers only)"/>
     <EditText
         android:id="@+id/width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="numberDecimal"
-        android:hint="Width in acres (numbers only)"/>
+        android:hint="Width in feet (numbers only)"/>
 
 
     <TextView
@@ -44,6 +44,12 @@
         android:layout_gravity="center"
         android:text="calculate"
         android:onClick="v"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:src='@drawable/rectanglelawn' />
+
     <Button
         android:id="@+id/back"
         android:layout_width="wrap_content"

@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:paddingTop="36dp"
-        android:text="contact information"
+        android:text="please click on picture"
         style="@style/SpecialText"
         />
 </LinearLayout>

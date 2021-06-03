@@ -20,21 +20,21 @@
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="number"
-        android:hint="1st side length in acres (numbers only)"/>
+        android:hint="1st side length in feet (numbers only)"/>
     <EditText
         android:id="@+id/second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="numberDecimal"
-        android:hint="2nd side length in acres (numbers only)"/>
+        android:hint="2nd side length in feet (numbers only)"/>
     <EditText
         android:id="@+id/third"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:inputType="numberDecimal"
-        android:hint="3rd side length in acres (numbers only)"/>
+        android:hint="3rd side length in feet (numbers only)"/>
 
     <TextView
         android:id="@+id/Total"
@@ -50,6 +50,12 @@
         android:layout_gravity="center"
         android:text="calculate"
         android:onClick="v"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:src='@drawable/trianglelawn' />
+
     <Button
         android:id="@+id/back"
         android:layout_width="wrap_content"

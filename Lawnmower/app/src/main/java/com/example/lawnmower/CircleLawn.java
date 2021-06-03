@@ -36,7 +36,7 @@ public class CircleLawn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 float inputValue= Float.parseFloat(Radius.getText().toString());
-                d = inputValue*inputValue*Math.PI;
+                d = (inputValue*inputValue*Math.PI)/43560;
                 Total.setText("Total is:\n" +d+" \nAcres");
             }
 

@@ -43,8 +43,8 @@ public class TriangleLawn extends AppCompatActivity {
                 float second = Float.parseFloat(Second.getText().toString());
                 float third = Float.parseFloat(Third.getText().toString());
                 S = (first+second+third)/2;
-                A = Math.sqrt(S*(S - first)*(S-second)*(S-third));
-                Total.setText("Total is:\n" +S+" \nAcres");
+                A = (Math.sqrt(S*(S - first)*(S-second)*(S-third)))/43560;
+                Total.setText("Total is:\n" +A+" \nAcres");
             }
 
         });
