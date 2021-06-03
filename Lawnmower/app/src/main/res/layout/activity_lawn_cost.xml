@@ -35,4 +35,8 @@
         android:text="Please select which type of lawn you have!"
         style="@style/SpecialText"
         android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:src='@drawable/mowingman' />
 </LinearLayout>
