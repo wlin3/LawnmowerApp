@@ -14,11 +14,18 @@
         android:text="Circle Lawn Area Calculator"
         style="@style/SpecialText"
         android:textColor="@color/black" />
-    <EditText
-        android:id="@+id/radius"
+
+    <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:src='@drawable/circlelawn' />
+
+    <EditText
+        android:layout_marginTop="24dp"
+        android:id="@+id/radius"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="12dp"
         android:inputType="numberDecimal"
         android:hint="Radius of lawn in feet(numbers only)"/>
     <TextView
@@ -27,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="0"
-        android:textSize="32dp"/>
+        android:textSize="24dp"/>
     <Button
         android:id="@+id/calculate"
         android:layout_width="wrap_content"
@@ -35,16 +42,12 @@
         android:layout_gravity="center"
         android:onClick="v"
         android:text="calculate" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="285dp"
-        android:src='@drawable/circlelawn' />
 
     <Button
         android:id="@+id/back"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="36sp"
         android:text="back"
         android:onClick="back"/>
 </LinearLayout>

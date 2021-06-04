@@ -14,18 +14,25 @@
         android:text="Rectangle Lawn Area Calculator"
         style="@style/SpecialText"
         android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:src='@drawable/rectanglelawn' />
+
     <EditText
         android:id="@+id/length"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:inputType="number"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
         android:hint="Length in feet (numbers only)"/>
     <EditText
         android:id="@+id/width"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="12dp"
         android:inputType="numberDecimal"
         android:hint="Width in feet (numbers only)"/>
 
@@ -45,16 +52,12 @@
         android:text="calculate"
         android:onClick="v"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="208dp"
-        android:src='@drawable/rectanglelawn' />
-
     <Button
         android:id="@+id/back"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="36sp"
         android:text="back"
         android:onClick="back"/>
 </LinearLayout>
+

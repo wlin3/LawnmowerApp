@@ -14,25 +14,32 @@
         android:text="Triangle Lawn Area Calculator"
         style="@style/SpecialText"
         android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:src='@drawable/trianglelawn' />
+
     <EditText
         android:id="@+id/first"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="12dp"
         android:inputType="number"
         android:hint="1st side length in feet (numbers only)"/>
     <EditText
         android:id="@+id/second"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="12dp"
         android:inputType="numberDecimal"
         android:hint="2nd side length in feet (numbers only)"/>
     <EditText
         android:id="@+id/third"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="12dp"
         android:inputType="numberDecimal"
         android:hint="3rd side length in feet (numbers only)"/>
 
@@ -42,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="0"
-        android:textSize="32dp"/>
+        android:textSize="24dp"/>
     <Button
         android:id="@+id/calculate"
         android:layout_width="wrap_content"
@@ -51,16 +58,11 @@
         android:text="calculate"
         android:onClick="v"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="208dp"
-        android:src='@drawable/trianglelawn' />
-
     <Button
         android:id="@+id/back"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="36sp"
         android:text="back"
-        android:onClick="back"/>
+        android:onClick="back"/>"/>
 </LinearLayout>
