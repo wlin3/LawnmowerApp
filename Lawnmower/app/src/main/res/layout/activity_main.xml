@@ -11,9 +11,10 @@
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Mowing Da Lawn"
+        android:text="Mow's Mowing Calculator"
         style="@style/SpecialText"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
     <ImageButton
         android:id="@+id/lawnmower"
         android:layout_width="400dp"

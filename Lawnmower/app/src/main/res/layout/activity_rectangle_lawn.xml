@@ -13,7 +13,8 @@
         android:textAlignment="center"
         android:text="Rectangle Lawn Area Calculator"
         style="@style/SpecialText"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <ImageView
         android:layout_width="match_parent"
